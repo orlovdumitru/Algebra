@@ -145,6 +145,8 @@ class VectorCalculator:
 
 
     def cross_product(self, v, w):
+        '''Calculate cross product of 2 vectors (works for 3D vectors)
+        takes in 2 vectors return a list (cross product between vector v and w)'''
         result = {'x': 0, 'y': 0, 'z': 0}
         ref_arr = ['x', 'y', 'z', 'x', 'y']
         v.extend(v[:-1])
