@@ -1,6 +1,6 @@
 import math
 
-class VectorCalculator:
+class VectorCalculator(object):
 
     def __init__(self):
         pass
